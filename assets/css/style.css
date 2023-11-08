@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* ========================================================== 
+                            Resets
+========================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ========================================================== 
+                        Image Links
+========================================================== */
+
+/* https://source.unsplash.com/random?night sky */
+/* https://source.unsplash.com/random/?Cryptocurrency&1 */
+/* https://picsum.photos/300/300?random=1 */
+
+/* ========================================================== 
+                            Fonts
+========================================================== */
+
+/* ========================================================== 
+                Variables / Custom Properties
+========================================================== */
+
+/* ========================================================== 
+                            Body
+========================================================== */
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: lightgray;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	scroll-behavior: smooth;
+	min-height: 100vh;
+	padding-block: 5vh;
+}
+
+/* .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+} */
+
+/* ========================================================== 
+                            Content
+========================================================== */
+
+h1 {
+	margin-block: 50px 10px;
+}
+
+table {
+	border: 1px solid black;
+	padding: 5px;
+	background-color: rgb(250, 240, 215);
+	border-spacing: 5px;
+}
+
+th {
+	background-color: rgb(41, 47, 73);
+	color: white;
+	text-align: left;
+}
+
+td, th {
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(79, 90, 144);
+	color: white;
+}
